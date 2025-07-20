@@ -1,168 +1,209 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <title>الحلقة 1168 - Aoibu</title>
-    <style>
-      body {
-        background-color: #111;
-        color: #fff;
-        font-family: 'Tahoma', sans-serif;
-        margin: 0;
-      }
-      .container {
-        display: flex;
-        min-height: 100vh;
-      }
-      .sidebar {
-        width: 22%;
-        background: #1a1a1a;
-        padding: 20px;
-        box-shadow: inset -1px 0 0 #333;
-      }
-      .content {
-        width: 56%;
-        padding: 20px;
-        background: #121212;
-      }
-      .episodes-list {
-        width: 22%;
-        background: #1a1a1a;
-        padding: 20px;
-        box-shadow: inset 1px 0 0 #333;
-        overflow-y: auto;
-      }
-      .video-player {
-        background: #000;
-        height: 400px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      video {
-        width: 100%;
-        height: 100%;
-        border: none;
-      }
-      .download-table {
-        width: 100%;
-        margin-top: 20px;
-        border-collapse: collapse;
-      }
-      .download-table th, .download-table td {
-        border: 1px solid #333;
-        padding: 8px;
-        text-align: center;
-        font-size: 14px;
-      }
-      .download-table th {
-        background: #222;
-      }
-      .episode-item {
-        padding: 8px;
-        border-bottom: 1px solid #333;
-        color: #ccc;
-      }
-      .episode-item:hover {
-        background: #222;
-        color: #fff;
-        cursor: pointer;
-      }
-      a {
-        color: #00bcd4;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      .poster {
-        width: 100%;
-        margin-bottom: 15px;
-      }
-      .title {
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 5px;
-      }
-      .subtitle {
-        color: #aaa;
-        font-size: 14px;
-        margin-bottom: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <!-- Sidebar Left -->
-      <div class="sidebar">
-        <img
-          class="poster"
-          src="https://k.top4top.io/p_3488134ak1.jpeg"
-          alt="بوستر"
-        />
-        <div class="title">المحقق كونان</div>
-        <div class="subtitle">مشاهدة الحلقة 1168</div>
+<head>
+  <meta charset="UTF-8">
+  <title>الحلقة 1168 - Aoibu</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #fff;
+      font-family: 'Tahoma', sans-serif;
+      margin: 0;
+    }
 
-        <table class="download-table">
-          <tr>
-            <th>السيرفر</th>
-            <th>الجودة</th>
-            <th>تحميل</th>
-          </tr>
-          <tr>
-            <td>Mega</td>
-            <td>1080p</td>
-            <td>
-              <a
-                href="https://mega.nz/file/eV0k0CiJ#31MW2Ol89WAinyrSTwPvw6wIGmrrsmmbB2eEFH7QyiU"
-                target="_blank"
-                >Download</a
-              >
-            </td>
-          </tr>
-          <tr>
-            <td>4shared</td>
-            <td>1080p</td>
-            <td>
-              <a
-                href="https://www.4s.io/video/KY-eOZRwjq/Aoibu_DC1168_1080p.html"
-                target="_blank"
-                >Download</a
-              >
-            </td>
-          </tr>
-        </table>
-      </div>
+    .site-header {
+      background-color: #222;
+      color: #00bcd4;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 15px 0 10px;
+      border-bottom: 2px solid #00bcd4;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
 
-      <!-- Main Content -->
-      <div class="content">
-        <div class="video-player">
-          <video controls>
-            <source
-              src="https://store10.gofile.io/download/web/be6936af-8069-4750-b465-d6c4c0b8e459/%7BAoibu%7D%20DC1168%20%5B1080p%5D.mp4"
-              type="video/mp4"
-            />
-            المتصفح لا يدعم تشغيل الفيديو.
-          </video>
-        </div>
-      </div>
+    .social-icons {
+      margin-top: 10px;
+    }
 
-      <!-- Episodes List -->
-      <div class="episodes-list">
-        <div class="episode-item">
-          1164 - حقيقة مضى عليها 17 عامًا - الفارس الملطخ بالدماء
-        </div>
-        <div class="episode-item">
-          1165 - حقيقة مضى عليها 17 عامًا - شيطان البصيرة الثاقبة
-        </div>
-        <div class="episode-item">
-          1166 - حقيقة مضى عليها 17 عامًا - فيل البصيرة البعيدة
-        </div>
-        <div class="episode-item">
-          1167 - حقيقة مضى عليها 17 عامًا - مؤامرة الملكة
-        </div>
-        <div class="episode-item">1168 - مذكرة صيد الإنقليس لغينتا</div>
-      </div>
+    .social-icons a img {
+      width: 26px;
+      height: 26px;
+      margin: 0 6px;
+      vertical-align: middle;
+      filter: brightness(0) invert(1);
+      transition: transform 0.3s ease;
+    }
+
+    .social-icons a:hover img {
+      transform: scale(1.15);
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      width: 22%;
+      background: #1a1a1a;
+      padding: 20px;
+      box-shadow: inset -1px 0 0 #333;
+    }
+
+    .content {
+      width: 56%;
+      padding: 20px;
+      background: #121212;
+    }
+
+    .episodes-list {
+      width: 22%;
+      background: #1a1a1a;
+      padding: 20px;
+      box-shadow: inset 1px 0 0 #333;
+      overflow-y: auto;
+    }
+
+    .video-player {
+      background: #000;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .download-table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+
+    .download-table th, .download-table td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .download-table th {
+      background: #222;
+    }
+
+    .episode-item {
+      padding: 8px;
+      border-bottom: 1px solid #333;
+      color: #ccc;
+    }
+
+    .episode-item:hover {
+      background: #222;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    a {
+      color: #00bcd4;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .poster {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header Banner -->
+<header class="site-header">
+  فريق ترجمة أويبو - Aoibu Team
+  <div class="social-icons">
+    <a href="https://t.me/Aoibu_Arabic" target="_blank" title="تيليجرام">
+      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" />
+    </a>
+    <a href="https://x.com/Aoibu_Arabic" target="_blank" title="X">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="X" />
+    </a>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- Sidebar Left -->
+  <div class="sidebar">
+    <img class="poster" src="https://k.top4top.io/p_3488134ak1.jpeg" alt="بوستر">
+    <div class="title">المحقق كونان</div>
+    <div class="subtitle">مشاهدة الحلقة 1168</div>
+
+    <table class="download-table">
+      <tr>
+        <th>السيرفر</th>
+        <th>الجودة</th>
+        <th>تحميل</th>
+      </tr>
+      <tr>
+        <td>Mega</td>
+        <td>1080p</td>
+        <td><a href="https://mega.nz/file/eV0k0CiJ#31MW2Ol89WAinyrSTwPvw6wIGmrrsmmbB2eEFH7QyiU" target="_blank">Download</a></td>
+      </tr>
+      <tr>
+        <td>4shared</td>
+        <td>1080p</td>
+        <td><a href="https://www.4s.io/video/KY-eOZRwjq/Aoibu_DC1168_1080p.html" target="_blank">Download</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <div class="video-player">
+      <iframe src="https://movearnpre.com/embed/mgxqq4fja9vz" allowfullscreen></iframe>
     </div>
-  </body>
+  </div>
+
+  <!-- Episodes List -->
+  <div class="episodes-list">
+    <div class="episode-item"><a href="132.html">132 - قضية قتل عاشق السحر - جزء الأحداث</a></div>
+    <div class="episode-item"><a href="156.html">156 - قصة حب ضابط شرطة العاصمة 2 - الجزء الأول</a></div>
+    <div class="episode-item"><a href="157.html">157 - قصة حب ضابط شرطة العاصمة 2 - الجزء الثاني</a></div>
+    <div class="episode-item"><a href="304.html">304 - مقر شرطة العاصمة المضطرب: 12 مليون رهينة</a></div>
+    <div class="episode-item"><a href="M27.html">M27 - فيلم المحقق كونان: لافتة المليون دولار</a></div>
+    <div class="episode-item"><a href="1160.html">1160 - عندما يصدر صوت الخيزران</a></div>
+    <div class="episode-item"><a href="1163.html">1163 - أغنية العد المسموعة في الظلام</a></div>
+    <div class="episode-item"><a href="1164.html">1164 - حقيقة مضى عليها 17 عامًا - الفارس الملطخ بالدماء</a></div>
+    <div class="episode-item"><a href="1165.html">1165 - حقيقة مضى عليها 17 عامًا - شيطان البصيرة الثاقبة</a></div>
+    <div class="episode-item"><a href="1166.html">1166 - حقيقة مضى عليها 17 عامًا - فيل البصيرة البعيدة</a></div>
+    <div class="episode-item"><a href="1167.html">1167 - حقيقة مضى عليها 17 عامًا - مؤامرة الملكة</a></div>
+    <div class="episode-item"><a href="1168.html">1168 - مذكرة صيد الإنقليس لغينتا</a></div>
+  </div>
+
+</div>
+
+</body>
+</html>
 </html>
