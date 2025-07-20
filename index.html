@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>الحلقة 1168 - Aoibu</title>
   <style>
     body {
@@ -11,34 +11,24 @@
       margin: 0;
     }
 
-    .site-header {
-      background-color: #222;
-      color: #00bcd4;
+    .banner {
+      background-color: #1a1a1a;
+      padding: 15px 20px;
       text-align: center;
-      font-size: 22px;
+      font-size: 18px;
       font-weight: bold;
-      padding: 15px 0 10px;
-      border-bottom: 2px solid #00bcd4;
-      position: sticky;
-      top: 0;
-      z-index: 999;
+      border-bottom: 1px solid #333;
     }
 
     .social-icons {
-      margin-top: 10px;
+      margin-top: 8px;
     }
 
-    .social-icons a img {
-      width: 26px;
-      height: 26px;
-      margin: 0 6px;
-      vertical-align: middle;
-      filter: brightness(0) invert(1);
-      transition: transform 0.3s ease;
-    }
-
-    .social-icons a:hover img {
-      transform: scale(1.15);
+    .social-icons a {
+      margin: 0 10px;
+      color: #00bcd4;
+      text-decoration: none;
+      font-size: 18px;
     }
 
     .container {
@@ -67,17 +57,9 @@
       overflow-y: auto;
     }
 
-    .video-player {
-      background: #000;
-      height: 400px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    iframe {
+    .video-player iframe {
       width: 100%;
-      height: 100%;
+      height: 400px;
       border: none;
     }
 
@@ -102,6 +84,11 @@
       padding: 8px;
       border-bottom: 1px solid #333;
       color: #ccc;
+    }
+
+    .episode-item a {
+      color: #ccc;
+      text-decoration: none;
     }
 
     .episode-item:hover {
@@ -135,75 +122,136 @@
       font-size: 14px;
       margin-bottom: 10px;
     }
+
+    .server-buttons {
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .server-buttons button {
+      background-color: #222;
+      color: #00bcd4;
+      border: 1px solid #333;
+      padding: 8px 16px;
+      margin: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      border-radius: 4px;
+    }
+
+    .server-buttons button:hover {
+      background-color: #00bcd4;
+      color: #111;
+    }
+
+    .subtitles-section {
+      margin-top: 25px;
+      background: #1a1a1a;
+      padding: 15px;
+      border: 1px solid #333;
+      border-radius: 5px;
+    }
+
+    .subtitles-section h3 {
+      margin-top: 0;
+      color: #00bcd4;
+    }
+
+    .subtitles-section a {
+      display: block;
+      margin: 5px 0;
+      color: #ccc;
+    }
+
+    .subtitles-section a:hover {
+      color: #fff;
+    }
   </style>
 </head>
 <body>
 
-<!-- Header Banner -->
-<header class="site-header">
-  فريق ترجمة أويبو - Aoibu Team
-  <div class="social-icons">
-    <a href="https://t.me/Aoibu_Arabic" target="_blank" title="تيليجرام">
-      <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" />
-    </a>
-    <a href="https://x.com/Aoibu_Arabic" target="_blank" title="X">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733635.png" alt="X" />
-    </a>
-  </div>
-</header>
-
-<div class="container">
-
-  <!-- Sidebar Left -->
-  <div class="sidebar">
-    <img class="poster" src="https://k.top4top.io/p_3488134ak1.jpeg" alt="بوستر">
-    <div class="title">المحقق كونان</div>
-    <div class="subtitle">مشاهدة الحلقة 1168</div>
-
-    <table class="download-table">
-      <tr>
-        <th>السيرفر</th>
-        <th>الجودة</th>
-        <th>تحميل</th>
-      </tr>
-      <tr>
-        <td>Mega</td>
-        <td>1080p</td>
-        <td><a href="https://mega.nz/file/eV0k0CiJ#31MW2Ol89WAinyrSTwPvw6wIGmrrsmmbB2eEFH7QyiU" target="_blank">Download</a></td>
-      </tr>
-      <tr>
-        <td>4shared</td>
-        <td>1080p</td>
-        <td><a href="https://www.4s.io/video/KY-eOZRwjq/Aoibu_DC1168_1080p.html" target="_blank">Download</a></td>
-      </tr>
-    </table>
-  </div>
-
-  <!-- Main Content -->
-  <div class="content">
-    <div class="video-player">
-      <iframe src="https://movearnpre.com/embed/mgxqq4fja9vz" allowfullscreen></iframe>
+  <!-- Banner -->
+  <div class="banner">
+    فريق ترجمة أويبو - Aoibu Team
+    <div class="social-icons">
+      <a href="https://t.me/Aoibu_Arabic" target="_blank">📢 تيليجرام</a>
+      <a href="https://x.com/Aoibu_Arabic" target="_blank">❌ X</a>
     </div>
   </div>
 
-  <!-- Episodes List -->
-  <div class="episodes-list">
-    <div class="episode-item"><a href="132.html">132 - قضية قتل عاشق السحر - جزء الأحداث</a></div>
-    <div class="episode-item"><a href="156.html">156 - قصة حب ضابط شرطة العاصمة 2 - الجزء الأول</a></div>
-    <div class="episode-item"><a href="157.html">157 - قصة حب ضابط شرطة العاصمة 2 - الجزء الثاني</a></div>
-    <div class="episode-item"><a href="304.html">304 - مقر شرطة العاصمة المضطرب: 12 مليون رهينة</a></div>
-    <div class="episode-item"><a href="M27.html">M27 - فيلم المحقق كونان: لافتة المليون دولار</a></div>
-    <div class="episode-item"><a href="1160.html">1160 - عندما يصدر صوت الخيزران</a></div>
-    <div class="episode-item"><a href="1163.html">1163 - أغنية العد المسموعة في الظلام</a></div>
-    <div class="episode-item"><a href="1164.html">1164 - حقيقة مضى عليها 17 عامًا - الفارس الملطخ بالدماء</a></div>
-    <div class="episode-item"><a href="1165.html">1165 - حقيقة مضى عليها 17 عامًا - شيطان البصيرة الثاقبة</a></div>
-    <div class="episode-item"><a href="1166.html">1166 - حقيقة مضى عليها 17 عامًا - فيل البصيرة البعيدة</a></div>
-    <div class="episode-item"><a href="1167.html">1167 - حقيقة مضى عليها 17 عامًا - مؤامرة الملكة</a></div>
-    <div class="episode-item"><a href="1168.html">1168 - مذكرة صيد الإنقليس لغينتا</a></div>
-  </div>
+  <div class="container">
 
-</div>
+    <!-- Sidebar Left -->
+    <div class="sidebar">
+      <img class="poster" src="https://k.top4top.io/p_3488134ak1.jpeg" alt="بوستر">
+      <div class="title">المحقق كونان</div>
+      <div class="subtitle">مشاهدة الحلقة 1168</div>
 
+      <table class="download-table">
+        <tr>
+          <th>السيرفر</th>
+          <th>الجودة</th>
+          <th>تحميل</th>
+        </tr>
+        <tr>
+          <td>Mega</td>
+          <td>1080p</td>
+          <td>
+            <a href="https://mega.nz/file/eV0k0CiJ#31MW2Ol89WAinyrSTwPvw6wIGmrrsmmbB2eEFH7QyiU" target="_blank">Download</a>
+          </td>
+        </tr>
+        <tr>
+          <td>4Shared</td>
+          <td>1080p</td>
+          <td>
+            <a href="https://www.4s.io/video/KY-eOZRwjq/Aoibu_DC1168_1080p.html" target="_blank">Download</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+      <div class="video-player">
+        <iframe id="videoFrame" src="https://movearnpre.com/embed/mgxqq4fja9vz" allowfullscreen></iframe>
+      </div>
+
+      <!-- سيرفرات المشاهدة -->
+      <div class="server-buttons">
+        <button onclick="changeServer('https://movearnpre.com/embed/mgxqq4fja9vz')">سيرفر 1</button>
+        <button onclick="changeServer('https://jumpshare.com/embed/11kK938GrFDx04aUi6X1')">سيرفر 2</button>
+      </div>
+
+      <!-- ملفات الترجمة -->
+      <div class="subtitles-section">
+        <h3>ملفات الترجمة والروابط (SoftSub)</h3>
+        <a href="https://mega.nz/file/qUs2zBBK#0oRia70XMbZhsR88l6N3syx6kSL2ziEw8mIais-pWZk" target="_blank">🟣 تحميل الخام 1</a>
+        <a href="https://nyaa.si/view/1995163" target="_blank">🟣 تحميل الخام 2</a>
+        <a href="https://subsource.net/subtitle/detective-conan-season-0-1996/arabic/10136452" target="_blank">🔤 ترجمة للخام 1 (Subsource)</a>
+        <a href="https://subdl.com/en/s/info/fV5IB0AYJBZ" target="_blank">🔤 ترجمة للخام 2 (SubDL)</a>
+      </div>
+    </div>
+
+‏  <!-- Episodes List -->
+‏  <div class="episodes-list">
+‏    <div class="episode-item"><a href="132.html">132 - قضية قتل عاشق السحر - جزء الأحداث</a></div>
+‏    <div class="episode-item"><a href="156.html">156 - قصة حب ضابط شرطة العاصمة 2 - الجزء الأول</a></div>
+‏    <div class="episode-item"><a href="157.html">157 - قصة حب ضابط شرطة العاصمة 2 - الجزء الثاني</a></div>
+‏    <div class="episode-item"><a href="304.html">304 - مقر شرطة العاصمة المضطرب: 12 مليون رهينة</a></div>
+‏    <div class="episode-item"><a href="M27.html">M27 - فيلم المحقق كونان: لافتة المليون دولار</a></div>
+‏    <div class="episode-item"><a href="1160.html">1160 - عندما يصدر صوت الخيزران</a></div>
+‏    <div class="episode-item"><a href="1163.html">1163 - أغنية العد المسموعة في الظلام</a></div>
+‏    <div class="episode-item"><a href="1164.html">1164 - حقيقة مضى عليها 17 عامًا - الفارس الملطخ بالدماء</a></div>
+‏    <div class="episode-item"><a href="1165.html">1165 - حقيقة مضى عليها 17 عامًا - شيطان البصيرة الثاقبة</a></div>
+‏    <div class="episode-item"><a href="1166.html">1166 - حقيقة مضى عليها 17 عامًا - فيل البصيرة البعيدة</a></div>
+‏    <div class="episode-item"><a href="1167.html">1167 - حقيقة مضى عليها 17 عامًا - مؤامرة الملكة</a></div>
+‏    <div class="episode-item"><a href="index.html">1168 - الحلقة الحالية</a></div>
+‏  </div>
+
+  <script>
+    function changeServer(url) {
+      document.getElementById('videoFrame').src = url;
+    }
+  </script>
 </body>
-</html>
 </html>
